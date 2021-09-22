@@ -16,7 +16,7 @@ body {
 header {
     width: 100%;
     height: 60px;
-    background: rgb(0, 130, 216);
+    background: rgb(0, 0, 0);
     color: #fff;
 
     position: fixed;
@@ -39,7 +39,7 @@ header img {
 
 @media (min-width:1024px){
     .contenido{
-        width: 1500px;
+        width: 1300px;
     }
 }
 .menu a:hover {
@@ -56,11 +56,38 @@ header img {
     text-decoration: none;
     font-size: 20px;
 }
-footer {
+section{
+    font-size: 20px;
+    text-align: center;
+}
+
+.formulario {
+    width: 45%;
+    margin: auto;
+    font-size: 20px;
+    padding: 1rem;
+}
+@media (max-width:1024px){
+    .formulario{
+        width: 100%;
+    }   
+}
+.footer {
     background: #333;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 4rem 0;
-    margin-top: 1000px;
+    padding: 2rem;
     font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    padding: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
 }
